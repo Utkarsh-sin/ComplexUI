@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex UI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Complex UI</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section1">Section 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section2">Section 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section3">Section 3</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/pexels-maxime-francis-2246476.jpg" class="d-block w-100" alt="Slide1">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>City 1</h5>
+              <p>Bird's Eye View Of City</p>
+              <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">Call to Action</button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel1" style="color:black">Bird's Eye View Of City</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/pexels-pixabay-302769.jpg" class="d-block w-100" alt="Slide2">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>City 2</h5>
+              <p>View Of High Rise Buildings during Day Time</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">Call to Action</button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel2" style="color:black">View Of High Rise Buildings during Day Time</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/pexels-pixabay-40142.jpg" class="d-block w-100" alt="Slide3">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>City 3</h5>
+              <p>Cityscape during Nighttime Near Body of Water and Sail Boat</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">Call to Action</button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel3" style="color:black">Cityscape during Nighttime Near Body of Water and Sail Boat</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/pexels-quintin-gellar-313782.jpg" class="d-block w-100" alt="Slide4">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>City 4</h5>
+              <p>High Angle View of Cityscape Against Cloudy Sky</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">Call to Action</button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel4" style="color:black">High Angle View of Cityscape Against Cloudy Sky</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <section id="section1" class="container"> 
+        <div class="item">  
+            <img src="./images/mall.jpg" alt="Mall image">
+            <p>A shopping mall in city is mostly crowded as you have multiple shops in a single building</p>
+        </div>
+        <div class="item">
+            <img src="./images/Theater.jpg" alt="Theater image">
+            <p>We go to theater for entertainment. People enjoy watching movies with snacks</p>
+        </div>
+        <div class="item">
+            <img src="./images/amusement_park.jpg" alt="Amusement Park">
+            <p>An amusement part is fun place for both kids and adults. You can enjoy here with friends and family</p>
+        </div>
+    </section>
+
+    <section id="section2" class="grid-container">
+        <div class="item1"><img src="http://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/img/car_4.png" alt="Theater image"></div>
+        <div class="item2"><img src="http://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/img/car_4.png" alt="Theater image"></div>
+        <div class="item3"><img src="http://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/img/car_4.png" alt="Theater image"></div>
+        <div class="item4"><img src="http://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/img/car_4.png" alt="Theater image"></div>
+        <div class="item5"><img src="http://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/img/car_4.png" alt="Theater image"></div>
+        <div class="item6"><img src="http://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/img/car_4.png" alt="Theater image"></div>
+        <div class="item7"><img src="http://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/img/car_4.png" alt="Theater image"></div>
+        <div class="item8"><img src="http://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/img/car_4.png" alt="Theater image"></div>
+        <div class="item9"><img src="http://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/img/car_4.png" alt="Theater image"></div>
+    </section>
+
+    <section id="section3" class="cards-container">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/HfReHl5.jpg" alt="Card image cap" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/HfReHl5.jpg" alt="Card image cap" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/HfReHl5.jpg" alt="Card image cap" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+    </section>
+
+    <footer class="page-footer font-small indigo">
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
+      
+          <!-- Grid row -->
+          <div class="row">
+            
+            <!-- Grid column -->
+      
+            <hr class="clearfix w-100 d-md-none">
+      
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto">
+      
+              <!-- Links -->
+              <h5 class="l1">Useful Links</h5>
+      
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!">Link 3</a>
+                </li>
+              </ul>
+      
+            </div>
+            <!-- Grid column -->
+      
+            <hr class="clearfix w-100 d-md-none">
+      
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto">
+      
+              <!-- Links -->
+              <h5 class="l1">More Links</h5>
+      
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!">Link 4</a>
+                </li>
+                <li>
+                  <a href="#!">Link 5</a>
+                </li>
+                <li>
+                  <a href="#!">Link 6</a>
+                </li>
+              </ul>
+      
+            </div>
+            <!-- Grid column -->
+      
+            <hr class="clearfix w-100 d-md-none">
+      
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto">
+      
+              <!-- Links -->
+                <h5 class="l1">Contact Us</h5>
+                <p>Email: <a href="mailto:xyz@example.com">cityview@gmail.com</a></p>
+                <p>Phone: <i>+91 9465758848</i></p>
+            </div>
+            <!-- Grid column -->
+      
+          </div>
+          <!-- Grid row -->
+      
+        </div>
+        <!-- Footer Links -->
+      
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2023 Complex UI. All Rights Reserved.
+        </div>
+        <!-- Copyright -->
+      
+      </footer>
+
+      <div class="last-button">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="float:right" href="index.html">
+            Back to Top
+        </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
